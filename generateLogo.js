@@ -37,3 +37,18 @@ const generateSVG = (text, textColor, shape, shapeColor) => {
     svgContent += `</svg>`;
     return svgContent;
 };
+
+const main = async () => {
+    const text = await askText();
+    const textColor = await askColor('text');
+    const shape = await askShape();
+    const shapeColor = await askColor('shape');
+
+    const svg = generateSVG(text, textColor, shape, shapeColor);
+    fs.writeFileSync('logo.svg', svg);
+
+    console.log('Generated logo.svg');
+    rl.close();
+};
+
+main();
