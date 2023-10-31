@@ -1,6 +1,8 @@
 # 10 Object-oriented Programming: SVG Logo Maker
 
+!! LINK for VIDEO !! https://drive.google.com/file/d/1ERNNgcMLaE9KlCVs2kvrFMJB0FBdc8uc/view
 ## Your Task
+
 
 Your task is to build a Node.js command-line application that takes in user input to generate a logo and save it as an [SVG file](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics). The application prompts the user to select a color and shape, provide text for the logo, and save the generated SVG to a `.svg` file.
 
@@ -35,6 +37,7 @@ AND the output text "Generated logo.svg" is printed in the command line
 WHEN I open the `logo.svg` file in a browser
 THEN I am shown a 300x200 pixel image that matches the criteria I entered
 ```
+!! LINK for VIDEO !! https://drive.google.com/file/d/1ERNNgcMLaE9KlCVs2kvrFMJB0FBdc8uc/view
 
 ## Mock-Up
 
@@ -71,3 +74,5 @@ It is recommended that you start with a directory structure that looks like the 
 The application must include `Triangle`, `Circle`, and `Square` classes, as well as tests for each of these classes using Jest. While not a requirement, it is recommended that you place any common functionality and properties shared by the `Triangle`, `Circle`, and `Square` classes in a parent `Shape` class and use inheritance to reuse the code in the child classes.
 
 Each shape class should be tested for a `render()` method that returns a string for the corresponding SVG file with the given shape color.
+
+!! LINK for VIDEO !! https://drive.google.com/file/d/1ERNNgcMLaE9KlCVs2kvrFMJB0FBdc8uc/view
